@@ -1,13 +1,13 @@
-## Find DTU researcher given a text
+## Find  researcher given a text
 
 Given a text, that could represent a (future) project title, an
-article title or an project or article abstract find relevant DTU
+article title or an project or article abstract find relevant
 researchers. This could be useful as a supervisor suggester.
 It is envisioned that the publications of the researcher can be embedded
 and the embeddings of all articles from DTU can be stored in a matrix.
 The query string is compared with the embedding matrix and ordered
 results are returns.
-The publications of DTU researchers can be identified from one or more
+The publications of  researchers can be identified from one or more
 SPARQL queries to triple stores that store Wikidata data. The articles
 can be fetched and the title of the article is also available, - but not
 the abstract. I have found around 50.000 articles-author pairs.
